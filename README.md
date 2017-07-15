@@ -27,20 +27,28 @@ The app will prompt the user with the following messages.
 
 ### View Products for Sale
 
+If a manager selects `View Products for Sale`, the app lists every available item: the item IDs, names, prices, and quantities.
+
 #### Screenshot
 ![Screenshot](images/manager_view_products.jpg)
 
 ### View Low Inventory
+
+If a manager selects `View Low Inventory`, the app lists all items with an inventory count lower than five.
 
 #### Screenshot
 ![Screenshot](images/manager_view_low_inv.jpg)
 
 ### Add to Inventory
 
+If a manager selects `Add to Inventory`, the app displays a prompt that will let the manager "adds more" of any item currently in the store.
+
 #### Screenshot
 ![Screenshot](images/manager_add_inv.jpg)
 
 ### Add New Product
+
+If a manager selects `Add New Product`, the app allows the manager to add a completely new product to the store.
 
 #### Screenshot
 ![Screenshot](images/manager_add_new_prod.jpg)

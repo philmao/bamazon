@@ -53,3 +53,7 @@ If a manager selects `Add New Product`, the app allows the manager to add a comp
 #### Screenshot
 ![Screenshot](images/manager_add_new_prod.jpg)
 
+## NPM Dependencies
+* easy-table
+* inquirer
+* mysql

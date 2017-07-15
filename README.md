@@ -25,5 +25,23 @@ The app will prompt the user with the following messages.
 * Add to Inventory
 * Add New Product
 
-### Screenshot
-![Screenshot](images/screen2.jpg)
+### View Products for Sale
+
+#### Screenshot
+![Screenshot](images/manager_view_products.jpg)
+
+### View Low Inventory
+
+#### Screenshot
+![Screenshot](images/manager_view_low_inv.jpg)
+
+### Add to Inventory
+
+#### Screenshot
+![Screenshot](images/manager_add_inv.jpg)
+
+### Add New Product
+
+#### Screenshot
+![Screenshot](images/manager_add_new_prod.jpg)
+

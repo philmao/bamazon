@@ -1,5 +1,47 @@
-<h1>Bamazon</h1>
-<h2>Overview</h2>
+# Bamazon
+
+## Overview
+
 Create an Amazon-like storefront using MySQL to take in orders from customers and deplete stock from the store's inventory.  As a bonus task, your app may be able to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
-<h2>Screenshot</h2>
-![Screenshot](/images/screen1.jpg)
+
+## Bamazon Customer View
+
+The app will prompt the user with the following messages:
+* The first prompt ask the user to select the product ID they would like to buy.
+* The second prompt ask the user on how many units of the product they would like to buy.
+
+Once the customer has placed the order, the app will check if your store has enough of the product to meet the customer's request. If not, the app will log a phrase like `Insufficient quantity!`, and prevent the order from going through.
+
+If the store _does_ have enough of the product to fulfill the customer's order, MySQL database will be updated and will show the customer the total cost of the purchase. 
+
+### Screenshot
+![Screenshot](images/screen1.jpg)
+
+## Bamazon Manager View
+
+The app will prompt the user with the following messages.
+* View Products for Sale
+* View Low Inventory
+* Add to Inventory
+* Add New Product
+
+### View Products for Sale
+
+#### Screenshot
+![Screenshot](images/manager_view_products.jpg)
+
+### View Low Inventory
+
+#### Screenshot
+![Screenshot](images/manager_view_low_inv.jpg)
+
+### Add to Inventory
+
+#### Screenshot
+![Screenshot](images/manager_add_inv.jpg)
+
+### Add New Product
+
+#### Screenshot
+![Screenshot](images/manager_add_new_prod.jpg)
+

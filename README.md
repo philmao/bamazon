@@ -9,7 +9,11 @@ Create an Amazon-like storefront using MySQL to take in orders from customers an
 The app will prompt the user with the following messages:
 * The first prompt ask the user to select the product ID they would like to buy.
 * The second prompt ask the user on how many units of the product they would like to buy.
-   
+
+Once the customer has placed the order, the app will check if your store has enough of the product to meet the customer's request. If not, the app will log a phrase like `Insufficient quantity!`, and prevent the order from going through.
+
+If the store _does_ have enough of the product to fulfill the customer's order, MySQL database will be updated and will show the customer the total cost of the purchase. 
+
 ### Screenshot
 ![Screenshot](images/screen1.jpg)
 
